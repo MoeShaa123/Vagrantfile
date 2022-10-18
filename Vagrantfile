@@ -7,3 +7,10 @@ Vagrant.configure("2") do |config|
 
 end
 # exit out of your vm
+# run vagrant reload from yor localhost - from same location
+# where your vagrantfile
+# vagrant ssh
+# sudo apt-get install nginx -y
+
+
+

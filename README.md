@@ -42,6 +42,7 @@
 - Install `nginx` in our VM
 - create a `private-network` between localhost & VM
 - allocate an IP adress - for Mac users
-- `sudo apt-get install nginx -y`
+  `sudo apt-get install nginx -y`
 - How to check a tool/software status in linux
   `sudo systemctl status nginx -y`
+- `vagrant destroy` then `vagrant status`
