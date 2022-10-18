@@ -54,6 +54,9 @@
 
 Virtualization relies on software to simulate hardware functionality and create a virtual computer system.
 
+![image](https://user-images.githubusercontent.com/106158041/196494769-8e583d3e-45f6-4907-94a5-4e60200f7950.png)
+
+
 ## What are its benefits?
 
 - Slash your IT expenses
