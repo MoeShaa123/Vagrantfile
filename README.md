@@ -78,4 +78,7 @@ Virtualization relies on software to simulate hardware functionality and create 
 - VirtualBox is open-source software for virtualizing the x86 computing architecture
 - It acts as a hypervisor, creating a VM (virtual machine) where the user can run another OS (operating system)
 
+![diagram](https://user-images.githubusercontent.com/106158041/196493540-602a6738-f1a3-4765-a448-6134bf9fbb7b.jpg)
+
+
 
