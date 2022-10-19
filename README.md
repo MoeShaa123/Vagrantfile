@@ -54,9 +54,6 @@
 
 Virtualization relies on software to simulate hardware functionality and create a virtual computer system.
 
-![image](https://user-images.githubusercontent.com/106158041/196494769-8e583d3e-45f6-4907-94a5-4e60200f7950.png)
-
-
 ## What are its benefits?
 
 - Slash your IT expenses
@@ -68,6 +65,7 @@ Virtualization relies on software to simulate hardware functionality and create 
 ## What is Dev Env
 
 - A development environment in software and web development is a workspace for developers to make changes without breaking anything in a live environment.
+
 - An example of this is Visual Studio Code
 
 ## What is Vagrant?
@@ -79,9 +77,5 @@ Virtualization relies on software to simulate hardware functionality and create 
 ## What is VirtualBox?
 
 - VirtualBox is open-source software for virtualizing the x86 computing architecture
+
 - It acts as a hypervisor, creating a VM (virtual machine) where the user can run another OS (operating system)
-
-![diagram](https://user-images.githubusercontent.com/106158041/196493540-602a6738-f1a3-4765-a448-6134bf9fbb7b.jpg)
-
-
-
