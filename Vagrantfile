@@ -9,6 +9,8 @@ Vagrant.configure("2") do |config|
     # 2nd param - vm folder, absolute path required 
      config.vm.synced_folder "./app", "/home/vagrant/app"
      config.vm.synced_folder "./environment", "/home/vagrant/environment"
+    # create external script which runs the required dependencies
+    config.vm.provision "shell", path: "./app/provsion.sh"
      
 end
 # exit out of your vm
