@@ -15,6 +15,8 @@
 
 ## Exit once you have done that, and then check the syntax with `sudo nginx -t`
 
-## Run `sudo sytemctl restart nginx`, then go back in to the app folder and `npm start`
+## Run `sudo sytemctl restart nginx`, then go back in to the app folder
+
+## Now run `npm install` and `npm start`
 
 ## Now you have the app open without including Port 3000
