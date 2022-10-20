@@ -71,8 +71,18 @@
 - Create 2 VMs - 1.1 to set app in app machine - 1.2 install mongodb in db machine
 - install required version of mongoDB with valid key
 - ensure it's running - 3.1 change mongodb.conf file to allow access to everyone
-- restart mongoDB and then enable then check status to ensure it's running with new config. cat mongodb.conf
-- back to app machine to create env var called `export DB_HOST="mongodb/192.168.33.150:27017/posts"
+- restart mongoDB and then enable then check status to ensure it's running with new config. `cat mongodb.conf`
+- back to app machine to create env var called `export DB_HOST=mongodb/192.168.10.150:27017/posts`
+- `sudo systemctl start mongod`
+- change the mongod.conf
+- ```net:
+  port: 27017
+  bindIp: 0.0.0.0
+  ```
+
+```
+
+
 
 ## What is Virtualisation?
 
@@ -103,3 +113,4 @@ Virtualization relies on software to simulate hardware functionality and create 
 - VirtualBox is open-source software for virtualizing the x86 computing architecture
 
 - It acts as a hypervisor, creating a VM (virtual machine) where the user can run another OS (operating system)
+```
