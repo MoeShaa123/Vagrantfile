@@ -80,10 +80,6 @@
   bindIp: 0.0.0.0
   ```
 
-```
-
-
-
 ## What is Virtualisation?
 
 Virtualization relies on software to simulate hardware functionality and create a virtual computer system.
@@ -113,4 +109,7 @@ Virtualization relies on software to simulate hardware functionality and create 
 - VirtualBox is open-source software for virtualizing the x86 computing architecture
 
 - It acts as a hypervisor, creating a VM (virtual machine) where the user can run another OS (operating system)
+
+```
+
 ```
