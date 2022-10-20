@@ -12,6 +12,9 @@
 
 - update / check connectivity: `sudo apt-get update`
 - upgrade: `sudo apt-get upgrade -y`
+- Remove the default - replace it with your own file
+- restart - enable - `sudo nginx -t`
+- `vagrant reload` or `vagrant destroy`
 
 ## Linux commands
 
@@ -49,6 +52,27 @@
 - How to check a tool/software status in linux
   `sudo systemctl status nginx -y`
 - `vagrant destroy` then `vagrant status`
+
+## Running logs
+
+- remove the default `sudo /etc/nginx/sites-available/default`
+- replace it with you own file ` sudo cp existing-location/etc/nginx/sites-available/default`
+- restart `sudo sytemctl restart nginx`
+- enable `sudo sytemctl restart nginx`
+
+## Linux Env Variable
+
+- syntax NAME=SHAHRUKH
+- How to check existing env var `env`
+- `export` to create env var
+
+## MongoDB
+
+- Create 2 VMs - 1.1 to set app in app machine - 1.2 install mongodb in db machine
+- install required version of mongoDB with valid key
+- ensure it's running - 3.1 change mongodb.conf file to allow access to everyone
+- restart mongoDB and then enable then check status to ensure it's running with new config. cat mongodb.conf
+- back to app machine to create env var called `export DB_HOST="mongodb/192.168.33.150:27017/posts"
 
 ## What is Virtualisation?
 
